@@ -1,57 +1,33 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #323232;
+    color: #fff;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    max-width: 600px;
-    margin: 50px auto;
-    background-color: #fff;
+    max-width: 100%;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     text-align: center;
-}
-
-.link-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    margin-bottom: 30px;
 }
 
 .link-card {
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    text-align: center;
-    background-color: #fff;
-    transition: transform 0.3s ease;
-}
-
-.link-card:hover {
-    transform: scale(1.05);
-}
-
-.link-card a {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 100%;
-    text-decoration: none;
-    color: #323232;
+    margin-bottom: 20px;
 }
 
 .link-card img {
-    max-width: 80px;
-    max-height: 80px;
-    margin-bottom: 10px;
+    max-width: 40px;
+    margin-right: 10px;
+}
+
+.link-card a {
+    text-decoration: none;
+    color: #fff;
 }
