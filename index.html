@@ -1,91 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Multi-Vertical Link Landing Page</title>
+    <title>Vertical Linktree Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #323232;
+            color: #fff;
             margin: 0;
             padding: 0;
         }
         
         .container {
-            max-width: 600px;
-            margin: 50px auto;
-            background-color: #fff;
+            max-width: 100%;
             padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         
         h1 {
             text-align: center;
-        }
-        
-        .link-section {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            margin-bottom: 30px;
         }
         
         .link-card {
-            width: 200px;
-            height: 200px;
-            margin: 10px;
-            border-radius: 5px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-            overflow: hidden;
-            text-align: center;
-            background-color: #fff;
-            transition: transform 0.3s ease;
-        }
-        
-        .link-card:hover {
-            transform: scale(1.05);
-        }
-        
-        .link-card a {
             display: flex;
-            flex-direction: column;
-            justify-content: center;
             align-items: center;
-            height: 100%;
-            text-decoration: none;
-            color: #323232;
+            margin-bottom: 20px;
         }
         
         .link-card img {
-            max-width: 80px;
-            max-height: 80px;
-            margin-bottom: 10px;
+            max-width: 40px;
+            margin-right: 10px;
+        }
+        
+        .link-card a {
+            text-decoration: none;
+            color: #fff;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>My Links</h1>
-        <div class="link-section">
-            <div class="link-card">
-                <a href="https://example.com">
-                    <img src="website-icon.png" alt="Website">
-                    <span>Website</span>
-                </a>
-            </div>
-            <div class="link-card">
-                <a href="https://facebook.com">
-                    <img src="facebook-icon.png" alt="Facebook">
-                    <span>Facebook</span>
-                </a>
-            </div>
-            <div class="link-card">
-                <a href="https://instagram.com">
-                    <img src="instagram-icon.png" alt="Instagram">
-                    <span>Instagram</span>
-                </a>
-            </div>
-            <!-- Add more link cards as needed -->
+        <div class="link-card">
+            <img src="website-icon.png" alt="Website">
+            <a href="https://example.com">Website</a>
         </div>
+        <div class="link-card">
+            <img src="facebook-icon.png" alt="Facebook">
+            <a href="https://facebook.com">Facebook</a>
+        </div>
+        <div class="link-card">
+            <img src="instagram-icon.png" alt="Instagram">
+            <a href="https://instagram.com">Instagram</a>
+        </div>
+        <!-- Add more link cards as needed -->
     </div>
 </body>
 </html>
